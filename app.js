@@ -26,7 +26,7 @@ app.get("/", (req, res) => {
 // app.get("/books/:id", (req, res) => {
 //   res.send({
 //     const reqBook=books.find(book=>{
-//         return book.id==rq.params.id
+//         return book.id==req.params.id
 //     })
 //     res.send(reqBook);
 //   });
